@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(218, 173, 157);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.notes {
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 14%);
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.insideNote {
+    word-wrap: break-word;
+}
+
+.titel {
+    margin-bottom: 8px;
+    max-width: 210px;
+    height: 30px;
+    border-radius: 7px;
+    border: 0;
+    outline: auto grey;
+    padding-inline: 15px;
+    font-size: 16px;
+}
+
+.titel:focus {
+    text-decoration: underline 6px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border: 1px solid grey;
+}
+
+.textArea {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border: 0px solid transparent;
+    border-radius: 1.25em;
+    transition: all 0.2s linear;
+    
+}
